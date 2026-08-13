@@ -555,6 +555,13 @@ const CSS = `
 .qty-stepper button{ background:none; border:none; color:var(--cream); font-size:16px; font-weight:800; width:20px; }
 .qty-row__total{ margin-left:auto; font-family:'Anton',sans-serif; color:var(--saffron); font-size:16px; }
 .product-card__actions{ display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; }
+@media(max-width:520px){
+  .product-card__body{ padding:24px 18px; }
+  .product-card__actions .btn{ flex:1 1 100%; }
+  .level-picker{ gap:8px; }
+  .level-picker__btn{ padding:10px 6px; font-size:11px; gap:6px; }
+  .qty-row{ gap:10px; }
+}
 
 /* LEVEL SECTION */
 .level-section{ background:linear-gradient(180deg,var(--char) 0%, #1a0d0a 100%); }
