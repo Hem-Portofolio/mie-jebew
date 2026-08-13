@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#120A08"/>
+  <defs>
+    <linearGradient id="flame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFC93C"/>
+      <stop offset="0.55" stop-color="#FF5A1F"/>
+      <stop offset="1" stop-color="#D6291B"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(5.6,5.6) scale(2.2)">
+    <path
+      fill="url(#flame)"
+      d="M12 2c1 3-2 4-2 7a4 4 0 108 0c0-1.5-1-2-1-2 1 4-1 5-2 5a3 3 0 01-3-3c0-2 2-3 0-7z"
+    />
+    <path
+      fill="rgba(18,10,8,.35)"
+      d="M12 10.5c-.6 1-1 1.8-1 3a3 3 0 006 0c0-1.6-1.4-2.2-1.8-3.6-.5 1.1-1.3 1.6-2 1.4.3-1.2.2-2-.2-3.2-.6.7-1 1.7-1 2.4z"
+    />
+  </g>
+</svg>
