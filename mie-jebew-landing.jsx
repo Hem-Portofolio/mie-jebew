@@ -560,7 +560,13 @@ const CSS = `
   .product-card__actions .btn{ flex:1 1 100%; }
   .level-picker{ gap:8px; }
   .level-picker__btn{ padding:10px 6px; font-size:11px; gap:6px; }
+  .level-picker .inline-flex svg{ width:12px; height:12px; }
   .qty-row{ gap:10px; }
+}
+@media(max-width:380px){
+  .level-picker{ grid-template-columns:1fr; }
+  .level-picker__btn{ justify-content:flex-start; padding:10px 14px; }
+  .level-picker .inline-flex{ margin-right:auto; }
 }
 
 /* LEVEL SECTION */
