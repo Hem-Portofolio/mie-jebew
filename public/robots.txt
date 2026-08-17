@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.jebewin.my.id/sitemap.xml
+Sitemap: https://jebewin.my.id/sitemap.xml
