@@ -472,7 +472,7 @@ const CSS = `
 .navbar--scrolled{ background:rgba(18,10,8,.72); backdrop-filter:blur(14px); padding:12px 5vw; border-color:rgba(246,230,200,.1); }
 .navbar__inner{ max-width:1280px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; gap:20px; }
 .navbar__logo{ background:none; border:none; cursor:pointer; display:flex; align-items:center; }
-.navbar__logo-img{ height:40px; width:auto; }
+.navbar__logo-img{ height:56px; width:auto; }
 .navbar__menu{ display:none; gap:28px; }
 .navbar__menu button{ background:none; border:none; color:var(--smoke); font-size:13px; font-weight:600; letter-spacing:.3px; transition:color .2s; }
 .navbar__menu button:hover{ color:var(--cream); }
@@ -624,7 +624,7 @@ const CSS = `
 
 /* FOOTER */
 .footer{ background:var(--char2); border-top:1px solid rgba(246,230,200,.08); padding:60px 6vw 100px; text-align:center; }
-.footer__logo-img{ height:60px; width:auto; }
+.footer__logo-img{ height:80px; width:auto; }
 .footer__tagline{ margin-top:10px; color:var(--blaze2); font-weight:700; font-size:13px; letter-spacing:.5px; }
 .footer__menu{ display:flex; justify-content:center; gap:12px; margin-top:26px; flex-wrap:wrap; }
 .footer__menu button{ background:none; border:none; color:var(--smoke); font-size:13px; }
